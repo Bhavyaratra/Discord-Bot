@@ -1,6 +1,6 @@
 console.log("GG!");
 
-const fetch = require("node-fetch") 
+const fetch = require("node-fetch") ;
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
@@ -18,3 +18,4 @@ const commandHandler = require("./commands");
 
 client.on('message',commandHandler);
 
+ 
