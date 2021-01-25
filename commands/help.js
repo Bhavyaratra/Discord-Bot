@@ -6,9 +6,10 @@ module.exports = function(msg , args){
     .setColor('#9999f')
     .setTitle('commands')
     .setThumbnail('https://imgur.com/vtjO5K3.png')
-    .addField(
-		 'Prefix: $', 'clear \ngif' ,true
-		
+    .setDescription('Prefix: $')
+    .addFields(
+         {name: 'clear', value: '$clear <int>' ,inline:false},
+         {name: 'gif', value: '$gif <keyword>', inline:false}
 
     )
     .setTimestamp();
