@@ -10,6 +10,7 @@ module.exports = function(msg , args){
     .addFields(
          {name: 'clear', value: '$clear <int>' ,inline:false},
          {name: 'gif', value: '$gif <keyword>', inline:false},
+         {name: 'wp',value: '$wp <keyword>',inline: false},
          { name: '\u200B', value: '\u200B' }
 
     )
