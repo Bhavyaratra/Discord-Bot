@@ -3,8 +3,9 @@ const hey = require("./commands/hey");
 const clear = require("./commands/clear");
 const gif = require("./commands/gif");
 const help = require("./commands/help");
+const wp = require('./commands/wp');
 
-const Allcommands = { hey , clear , gif, help};
+const Allcommands = { hey , clear , gif, help, wp};
 
 module.exports = async function (msg){ 
                         //hellhole testing                     //kilsao_matt testing
